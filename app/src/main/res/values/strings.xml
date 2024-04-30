@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BatHunter</string>
+    <string name="app_name_display">BAT HUNTER</string>
+    <string name="play">PLAY</string>
+    <string name="high_score">High Score:</string>
+</resources>
+
