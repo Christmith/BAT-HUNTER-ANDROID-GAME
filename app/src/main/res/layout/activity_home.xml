@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".HomeActivity">
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scaleType="centerCrop"
+    android:src="@drawable/bg_1" />
+
+<TextView
+    android:id="@+id/appNameText"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="28dp"
+    android:fontFamily="@font/joti_one"
+    android:text="@string/app_name_display"
+    android:textColor="@color/white"
+    android:textSize="56sp"
+    android:layout_centerHorizontal="true"
+    android:layout_above="@+id/playButton"
+    android:layout_below="@+id/highScoreText"/>
+
+<Button
+    android:id="@+id/playButton"
+    android:layout_width="106dp"
+    android:layout_height="67dp"
+    android:layout_centerInParent="true"
+    android:backgroundTint="#5FE18A"
+    android:fontFamily="@font/joti_one"
+    android:text="@string/play"
+    android:textColor="@color/white"
+    android:textSize="26sp" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="24sp"
+    android:textColor="@color/black"
+    android:text="@string/high_score"
+    android:fontFamily="@font/joti_one"
+    android:layout_alignParentRight="true"
+    android:layout_margin="16dp"
+    android:id="@+id/highScoreText"/>
+
+<ImageView
+    android:layout_width="36dp"
+    android:layout_height="36dp"
+    android:layout_alignParentBottom="true"
+    android:layout_margin="16dp"
+    android:src="@drawable/baseline_volume_up_24"
+    android:id="@+id/volumeCtrl"/>
+
+</RelativeLayout>
